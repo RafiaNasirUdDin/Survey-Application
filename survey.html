@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;"> <strong>University Application</strong></h1>
+    <form action="beckend.php">
+    <p> <strong> <em>Personal information:</em></strong></p>
+        <div>
+         <label for="name"> First Name:</label>
+        <input type="text" id="name" name="name"  placeholder="name here" minlength="56" maxlength="123" required>
+        </div>
+        <br>
+        <br>
+        <div>
+         <label for="name"> Last Name:</label>
+        <input type="text" id="name" name="name" placeholder="Last name" minlength="56" maxlength="123" required>
+        </div>
+        <br>
+        <br>
+        <div>
+             <label for="password">password:</label>
+        <input type="password" id="password" placeholder="password" name="password" minlength="4" maxlength="6" required>
+        </div>
+        <br>
+        <div>
+            <label for="phone">contact #:</label>
+       <input type="tel" id="phone" name="contact" placeholder="(123)-456-7890"required>
+       </div>
+       <br>
+       <div>
+        <label for="email">Email:</label>
+   <input type="email" id="email" name="email" placeholder="qwerty05@gmail.com"required>
+   </div>
+   <br>
+   <div>
+    <label for="bdate">Birthdate:</label>
+<input type="date" id="bdate" name="bdate" placeholder="Birthdate" required>
+</div>
+<br>
+<div>
+    <label for="quantity">Year:</label>
+<input type="number" id="quantity" placeholder="quantity" value="1" required>
+</div>
+<br>
+<div>
+     Gender: <label for="">Male:</label>
+    <input type="radio" id="Male" name="title" value="Male">
+    <label for="">Female:</label>
+    <input type="radio" id="Female" name="title" value="Female">
+    <label for="">Others:</label>
+    <input type="radio" id="Others" name="title" value="Others">
+</div>
+<br>
+<div>
+    <label for="Degree">Degree:</label>
+   <select name="Degree" id="Degree">
+    <option value="Bsc">Bsc</option>
+    <option value="Master">Master</option>
+    <option value="Mphil">Mphil</option>
+   </select>
+</div>
+<div>
+    <label for="checkbox">student:</label>
+    <input type="checkbox" id="checkbox" name="checkbox" checked>
+</div>
+<br>
+<div>
+  whrite about yourself: <br> <textarea name="mytext" cols="30" rows="10"></textarea>
+</div>
+<br>
+            <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
